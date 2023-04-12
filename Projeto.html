@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Projeto</title>
+    <style>
+        /* Estilos para o corpo da página */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 1280px;
+            margin: 0 auto;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: row;
+        }
+        
+
+        /* Estilos para o cabeçalho */
+        header {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Estilos para a navegação */
+        nav {
+            background-color: red;
+        }
+
+
+        /* Estilos para o conteúdo */
+        main {
+            border: 5px solid grey;
+            padding: 100px;
+            background-repeat: no-repeat;
+            background: none;
+        }
+
+        img {
+            width: 20%;
+            width: 20%;
+            margin-left: 20px;
+        }
+
+        .texto {
+            position: absolute;
+            top: 70%;
+            left: 83%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        /* Estilos para o rodapé */
+        footer {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Meu site</h1>
+            <h2>Sistemas de informação</h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="sub_projetos/minha_lista.html" target="eu">Lista</a></li>
+                <li><a href="sub_projetos/piada.html" target="eu">Piada</a></li>
+                <li><a href="sub_projetos/poema.html" target="eu">Poema</a></li>
+                <li><a href="sub_projetos/Tabela.html" target="eu">Tabela</a></li>
+            </ul>
+           <a href="http://moodle.esup.edu.br/moodle/">moodle Esup</a>
+           <a href="https://esup.edu.br">Site oficial da faculdade</a>
+        </nav>
+        
+        <main>
+            <div class="content-wrapper">
+                <iframe height="250" width="600" name="eu"></iframe>
+                <img src="img/foto.jpeg" alt="foto do aluno">
+                <div class="texto">- Aluno: Mickael Markejhany<br>
+                    - tenho 19 anos, cursei edificações no ensino médio no IFG, 
+                    atualmente estou cursando sistemas de informações na Esup.<br>
+                    - hashtags com area de afinição do curso:
+                    #logica #Algebra linear #C++ <br>
+                    <a href="https://github.com/Marks1017">GitHub</a>
+                    <a href="https://www.instagram.com/markejhany/">instagram</a>
+
+                </div>
+
+            </div>
+
+        </main>
+        <footer>
+            Trabalho desenvolvido para a obtenção de créditos
+            na disciplina de Introdução do Desenvolvimento Web, sob orientação do professor Aliberto
+            Neto.
+
+        </footer>
+    </div>
+</body>
+
+</html>
